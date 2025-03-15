@@ -3,11 +3,10 @@
 import random
 
 def lancar_dados():
-    dado1 = random.randint(1, 6)  # Lança o primeiro dado
-    dado2 = random.randint(1, 6)  # Lança o segundo dado
-    total = dado1 + dado2  # Soma os resultados
+    dado1 = random.randint(1, 6)
+    dado2 = random.randint(1, 6)
+    total = dado1 + dado2
     return total
 
-# Testando a função
 resultado = lancar_dados()
 print(f"O resultado do lançamento dos dados é: {resultado}")
